@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Merienda:wght@300..900&display=swap');
+
+:root {
+  --fontetitulo: "Changa One", sans-serif;
+  --fonteversiculo: "Merienda", cursive;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+header > h1 {
+  font: normal normal 4em var(--fontetitulo);
+  font-variant: small-caps;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font: normal lighter .9em Verdana;
+}
+
+.normal {
+  background-color: white;
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+}
+
+.image {
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+}
+
+body {
+  background-color: gray;
+}
+
+main p {
+  margin-bottom: 30px;
+  font-family: var(--fonteversiculo);
+  font-size: 3vw;
+  width: 60%;
+  padding-left: 10px;
+}
